@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+statsmodels
+scikit-learn
+matplotlib
+basemap
+geopandas
+shapely
+pyarrow
+requests
+earthengine-api
+google-api-python-client
+google-auth
+google-auth-oauthlib
+tabulate

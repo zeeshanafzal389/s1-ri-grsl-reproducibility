@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+data/global_s1_metadata/*.parquet
+data/global_s1_metadata/raw_monthly/
+data/global_s1_metadata/processed_monthly/
+*.zip

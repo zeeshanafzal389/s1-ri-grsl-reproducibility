@@ -1,0 +1,8 @@
+scheme_id,label,w_mean_acquisition,w_obs_continuity,w_gap,w_dual_pol,w_orbit_diversity,w_1b_shock_resilience,mean_score,median_score,std_score,min_score,max_score,pearson_r_vs_baseline,spearman_r_vs_baseline,kendall_tau_vs_baseline,mae_vs_baseline,n_cities_tier_changed_vs_baseline,pct_cities_tier_changed_vs_baseline,n_low,n_medium,n_high
+W0_baseline,Baseline (published): acquisition+continuity-dominant,0.25,0.25,0.2,0.15,0.1,0.05,0.759796,0.761671,0.152071,0.020612,1.0,1.0,1.0,0.999621,0.0,0,0.0,220,1309,1938
+W1_equal,Equal weight (1/6 each),0.166667,0.166667,0.166667,0.166667,0.166667,0.166667,0.74602,0.734145,0.164258,0.017576,1.0,0.981336,0.962915,0.84622,0.028719,400,11.537,225,1677,1565
+W2_gap_heavy,"Gap-heavy (gap=0.35, acquisition+continuity=0.40, others=0.25)",0.2,0.2,0.35,0.1,0.1,0.05,0.772449,0.787803,0.171295,0.015782,1.0,0.989024,0.992975,0.956796,0.027369,196,5.653,248,1137,2082
+W3_continuity_heavy,"Continuity-heavy (obs_continuity=0.40, acquisition=0.30, others=0.30)",0.3,0.4,0.15,0.05,0.05,0.05,0.764468,0.772448,0.138279,0.022788,1.0,0.995212,0.992938,0.946493,0.017156,121,3.49,209,1238,2020
+W4_coverage_only,"Coverage-only (acquisition+continuity+gap only, others=0)",0.35,0.35,0.3,0.0,0.0,0.0,0.761666,0.786541,0.1549,0.018326,1.0,0.975628,0.956047,0.837412,0.028325,266,7.672,231,1105,2131
+W5_dualpol_heavy,"Dual-pol-heavy (dual_pol=0.35, acquisition+continuity=0.40, others=0.25)",0.2,0.2,0.1,0.35,0.1,0.05,0.79537,0.793416,0.13072,0.026844,1.0,0.997533,0.995666,0.963701,0.035585,285,8.22,194,1076,2197
+W6_no_1b_shock,"No-1B-shock (weight=0, redistributed to acquisition+continuity)",0.275,0.275,0.2,0.15,0.1,0.0,0.757559,0.764178,0.152538,0.021921,1.0,0.995943,0.99398,0.939004,0.01227,169,4.875,219,1444,1804
